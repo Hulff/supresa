@@ -67,7 +67,7 @@ document.querySelector("#yes").addEventListener("click", function () {
   tries++
   if (tries > 7) {
     console.log("end")
-    window.location.replace(`${currentUrl.slice(0, currentUrl.length - 10) }surprise.html`);
+    window.location.replace(currentUrl+"surprise.html");
   }
   else {
   
